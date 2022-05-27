@@ -1,0 +1,17 @@
+ <div class="container-fluid" style="padding: 5%; margin-right: 5%">
+        <div class="row">
+          {{#each blog}}
+           <div class="col-lg-4">
+            <div class="card1" style="width: 18rem;  border: 2px double #bac2c4; border-radius: 12px; margin:8% ">
+               <div><img class="card-img-top" style="100px" src="{{post_image}}" alt="Card image cap"></div>
+                <div class="card-body">
+                  <h5 class="card-title">{{title}}</h5>
+                  <p class="card-text">{{short}}</p>
+                  <a href="/blog/{{_id}}" class="btn btn-outline-secondary">Devamını Oku --></a>
+                </div>
+              </div>
+           </div>
+           {{/each}}
+      </div>
+ </div>
+    

@@ -1,0 +1,80 @@
+
+	
+  <div class="container">
+   <div>
+       <h3>Sorular</h3>
+   </div>
+
+<div class="col-md-10">
+   <table class="table" border =3 >
+       <thead>
+         <tr>
+             <th>questions</th>
+             <th>name</th>
+             <th>phone</th>
+         </tr>
+       </thead>
+       <tbody>
+         {{!-- {{#each sorucevap}} --}}
+          <tr>
+              <td>questions</td>
+              <td>name</td>
+              <td>phone</td>
+          </tr>
+		  <tr>
+              <td>questions</td>
+              <td>name</td>
+              <td>phone</td>
+          </tr>
+		  <tr>
+              <td>questions</td>
+              <td>name</td>
+              <td>phone</td>
+          </tr>
+          {{!-- {{/each}} --}}
+       </tbody>
+   </table>
+<div>
+    <h3>Post Ekle</h3>
+</div>
+
+<div class="col-lg-12">
+				<form action="/blog/test" method="post" enctype="multipart/form-data">
+					<div class="row">
+						<div class="col-md-6">
+							<div class="form-group">
+								<input class="form-control" name="title" type="text" placeholder="Baslik *" required="required" data-validation-required-message="alanı boş bırakmayınız">
+								<p class="help-block text-danger"></p>
+							</div>
+							<div class="form-group">
+								<input class="form-control" name="short" type="text" placeholder="Kısa Açıklama *" required="required" data-validation-required-message="alanı boş bırakmayınız">
+								<p class="help-block text-danger"></p>
+							</div>
+					</div>
+						<div class="col-md-6">
+							<div class="form-group">
+								<textarea class="form-control" name="tall" placeholder="İçerik *" required="required"></textarea>
+								<p class="help-block text-danger"></p>
+							</div>
+						</div>
+          <div class="form-group">
+								<input class="form-control" name="post_image" type="file"  required="required" data-validation-required-message="alanı boş bırakmayınız">
+								<p class="help-block text-danger"></p>
+							</div>  
+						<div class="clearfix"></div>
+						<div class="col-lg-12 text-center">
+							<div id="success"></div>
+							<button class="btn btn-secondary"  type="submit">Post Ekle</button>
+						</div>
+					</div>
+				</form>
+			</div>
+
+
+
+
+</div>
+</div>
+	
+
+	

@@ -1,0 +1,28 @@
+
+<div class="container-fluid endıs" style="margin-left: 200px; margin-top: 50px;">
+    <div class="row">
+        <div class="col-lg-12">
+        {{#each hizmetler}}
+        <div class="col-lg-8">
+     <div class="card1 mb-3"
+                            style="max-width: 800px; border: 4px double #97bcc7 ; border-radius: 12px; margin: auto; position: relative;">
+                            <div class="row no-gutters">
+                                <div class="col-md-4">
+                                    <img style="margin-top: 30px; margin-left: 20px;"
+                                        src="https://www.limavet.com/img/proser-m/asi-2-03b7fa6e.jpg" class="card-img"
+                                        alt="...">
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="card-body">
+                                        <h5 style="font-family: cursive; font-style: italic; color: #f67b50;">{{title}}</h5>
+                                        <p style="color: #013f50; font-style: italic; ">{{contentshort}}</p>
+                                        <a class="btn btn-outline-secondary" href="/hizmetler/{{_id}}">Devamını oku --></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+          {{/each}}
+           </div>
+        </div>
+    </div>
