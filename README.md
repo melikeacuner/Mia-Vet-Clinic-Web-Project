@@ -1,3 +1,3 @@
 # Mia-Vet-Clinic-Web-Project
 
-proje dosya boyutunu aştığı için node_modules klasörü yüklenmedi 
+projedeki node_modules klasörü boyutu fazla olduğu için node_modules klasörü yüklenmedi 
